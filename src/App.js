@@ -5,8 +5,10 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        it works
+      <div className="App-container">
+        <main className="App-main">
+          <div className="App-box"></div>
+        </main>
       </div>
     );
   }
