@@ -5,21 +5,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("bg-img.jpg");
+  background-repeat: none;
 }
 
 .App-main {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
+  flex-direction: column;
   
 }
 
 .App-box {
-  width: 10rem;
-  height: 10rem;
-  border: 1px solid black;
-  margin: 1rem;
+  width: 20rem;
+  height:20rem;
+  /* margin: 1rem; */
   display: flex;
   justify-content: center;
+  background-image: url("pill.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
