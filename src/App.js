@@ -5,7 +5,7 @@ import './App.css';
 class App extends Component {
 
   handleClick(event) {
-    window.alert("OH!! HEY!!!!")
+    window.alert("There IS NO SPOON!")
   }
   
   
