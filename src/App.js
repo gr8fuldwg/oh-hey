@@ -13,7 +13,13 @@ class App extends Component {
     return (
       <div className="App-container">
         <main className="App-main">
-          <div className="App-box" onClick={this.handleClick} ></div>
+          <div className="App-box" onClick={this.handleClick} >
+          <div className="App-box-1"></div>
+          <div className="App-box-2">
+
+          
+          </div>
+          </div>
         </main>
       </div>
     );
