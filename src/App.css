@@ -18,7 +18,7 @@
 }
 
 .App-box {
-  width: 20rem;
+  width: 15rem;
   height: 15rem;
   /* margin: 1rem; */
   display: flex;
@@ -29,14 +29,14 @@
 }
 
 .App-box-1 {
-  width: 10rem;
+  width: 15rem;
   
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .App-box-2 {
-  width: 10rem;
-  border: 1px solid black;
+  width: 15rem;
+  /* border: 1px solid black; */
 }
   
  
