@@ -11,7 +11,7 @@ class App extends Component {
   }
 
   handleClickTwo(event) {
-    window.alert("There is no reality.........")
+    window.alert("Unicorns and Rainbows")
   };
    
  
@@ -20,7 +20,7 @@ class App extends Component {
       <div className="App-container">
         <main className="App-main">
           <div className="App-box"  >
-          <div className="App-box-1" onClick={this.handleClickOne}><a href="https://youtube/tv#/watch?v=oi6mPsdhy-Q"><button class="btn btn-primary"></button></a></div>
+          <div className="App-box-1" onClick={this.handleClickOne}><a href="https://www.youtube.com/embed/oi6mPsdhy-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><button className="btn"></button></a></div>
           <div className="App-box-2" onClick={this.handleClickTwo}>
 
           
