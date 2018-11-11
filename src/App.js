@@ -13,18 +13,22 @@ class App extends Component {
   handleClickTwo(event) {
     window.alert("Unicorns and Rainbows")
   };
-   
- 
+
+
   render() {
     return (
+      
       <div className="App-container">
+      <header className="App-header">
+        <h1>Welcome to the rest of your life...</h1>
+      </header>
         <main className="App-main">
           <div className="App-box"  >
-          <div className="App-box-1" onClick={this.handleClickOne}><a href="https://www.youtube.com/embed/oi6mPsdhy-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><button className="btn"></button></a></div>
-          <div className="App-box-2" onClick={this.handleClickTwo}>
+            <div className="App-box-1" onClick={this.handleClickOne}><a href="https://www.youtube.com/embed/oi6mPsdhy-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><button className="btn"></button></a></div>
+            <div className="App-box-2" onClick={this.handleClickTwo}>
 
-          
-          </div>
+
+            </div>
           </div>
         </main>
       </div>
@@ -33,6 +37,6 @@ class App extends Component {
 }
 
 
- 
+
 
 export default App;
