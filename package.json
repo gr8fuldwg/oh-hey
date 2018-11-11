@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1"
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-scripts": "2.1.1",
+    "react-video": "^1.5.3",
+    "redux": "^4.0.1",
+    "video-react": "^0.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,5 +31,4 @@
     "gh-pages": "^2.0.1"
   },
   "homepage": "https://gr8fuldwg.github.io/oh-hey/"
-  
 }
